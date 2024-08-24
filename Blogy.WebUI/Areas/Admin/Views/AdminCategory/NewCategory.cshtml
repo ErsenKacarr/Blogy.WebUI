@@ -1,0 +1,17 @@
+﻿@model Blogy.EntityLayer.Concreate.Category
+
+@{
+    ViewData["Title"] = "NewCategory";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<h3>Yeni Kategori Girişi</h3>
+<form method="post">
+    <label>Kategori Adı</label>
+    <input type="text" asp-for="CategoryName" class="form-control" />
+    <br />
+    <button class="btn btn-info">Kategoriyi Kaydet</button>
+</form>
+

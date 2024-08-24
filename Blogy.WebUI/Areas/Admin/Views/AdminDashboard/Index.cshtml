@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="page-header">
+    <h3 class="page-title">
+        <span class="page-title-icon bg-gradient-primary text-white mr-3">
+            <i class="mdi mdi-home"></i>
+        </span> Dashboard Sayfası
+    </h3>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-primary card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Yazar Sayısı  <i class="mdi mdi-diamond mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.yazarsayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-danger card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Categori Sayısı <i class="mdi mdi-diamond mdi-24px float-right"></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.categorisayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-info card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Sinema Ve Film Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.sinemasayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-secondary card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Oyun Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.oyunsayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-success card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Teknoloji Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.teknolojisayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-warning card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Spor Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.sporsayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-dark card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Sağlık Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.sagliksayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-primary card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Yeme-İçme Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.yemeksayisi</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 stretch-card grid-margin">
+        <div class="card bg-gradient-secondary card-img-holder text-white">
+            <div class="card-body">
+                <h4 class="font-weight-normal mb-3">
+                    Tarih Blog Sayısı  <i class="mdi mdi-chart-line mdi-24px float-right"></i></i>
+                </h4>
+                <h2 class="mb-5">@ViewBag.tarihsayisi</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
